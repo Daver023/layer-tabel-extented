@@ -40,6 +40,7 @@ function getIds() {
     return idsArray;
 }
 
+
 tabelRender('ReportControlEntity', 'control-parameter-table', { }, '/api/ReportSetting/Control/List', 'control-parameter-table-station-toolbar', function (tabel) {
     tabel.on('toolbar(control-parameter-table)', callback);
     tabel.on('tool(control-parameter-table)', callback);
